@@ -1,0 +1,34 @@
+{
+  "name": "nd-ts-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --watch",
+    "eslint": "eslint --cache --ext .js,.ts src",
+    "eslint:dump": "eslint --print-config ./.eslintrc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinsl/nd-ts-templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinsl/nd-ts-templates/issues"
+  },
+  "homepage": "https://github.com/Sinsl/nd-ts-templates#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "express": "^4.18.2",
+    "typescript": "^5.0.2"
+  }
+}
